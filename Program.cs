@@ -16,3 +16,4 @@ foreach (int grade in grades)
     System.Console.WriteLine(grade);
 }
 System.Console.WriteLine($"сумма оценок: {count}");
+System.Console.WriteLine($"средний балл: {count/5}");
