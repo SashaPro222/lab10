@@ -34,7 +34,6 @@
 //     points[i] = points[i] + 5;
 //     System.Console.WriteLine(points[i]);
 // }
-// System.Console.WriteLine(points);
 // string[] students = { "Аня", "Борис", "Вика"};
 // int number = 1;
 // foreach (string student in students)
@@ -66,31 +65,31 @@
 // System.Console.WriteLine($"Максимальная оценка {max}");
 
 // Задание 1
-// int[] temp = { 5, 3, -11, 6, 9, 21, 0 };
-// int sum = 0;
-// foreach (int i in temp)
-// {
-//     sum += i;
-// }
-// System.Console.WriteLine($"Средняя температура: {sum/temp.Length}");
+int[] temp = { 5, 3, -11, 6, 9, 21, 0 };
+int sum = 0;
+foreach (int i in temp)
+{
+    sum += i;
+}
+System.Console.WriteLine($"Средняя температура: {sum/temp.Length}");
 
 //Задание 5
 
-// string[] book = { "Война и мир", "Муму", "Горе от ума" };
-// string search = "Муму";
-// bool flag = false;
-// foreach (string i in book)
-// {
-//     if (i == search)
-//     {
-//         flag = true;
-//     }
-// }
-// if (flag == true)
-// {
-//     System.Console.WriteLine("Найдено");
-// }
-// else
-// {
-//     System.Console.WriteLine("Не найдено");
-// }
+string[] book = { "Война и мир", "Муму", "Горе от ума" };
+string search = "Муму";
+bool flag = false;
+foreach (string i in book)
+{
+    if (i == search)
+    {
+        flag = true;
+    }
+}
+if (flag == true)
+{
+    System.Console.WriteLine("Найдено");
+}
+else
+{
+    System.Console.WriteLine("Не найдено");
+}
